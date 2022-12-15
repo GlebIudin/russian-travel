@@ -1,0 +1,30 @@
+.footer__copyright {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    /* identical to box height, or 114% */
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 663px) {
+    .footer__copyright {
+        display: flex;
+        align-self: flex-start;
+        margin: 0;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        line-height: 1;
+        /* identical to box height, or 100% */
+        align-self: flex-start;
+    }
+}

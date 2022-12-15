@@ -1,0 +1,37 @@
+.lead__title {
+    max-width: 720px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+    /* or 104% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+@media (max-width: 704px) {
+    .lead__title {
+        width: calc(100% - 24px);
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+@media (max-width: 401px){
+    .lead__title {
+        width: calc(100% - 32px);
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__title {
+        font-size: 32px;
+        line-height: 1.1;
+        margin-bottom: 16px;
+    }
+}

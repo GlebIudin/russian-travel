@@ -1,0 +1,31 @@
+/*Used fonts - Black, Regular, Mixed(Bold)*/
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: local('Inter'),
+        url(../../fonts/__inter/black/Inter-Black.otf) format('otf'),
+        url(../../fonts/__inter/black/Inter-Black.ttf) format('ttf'),
+        url(../../fonts/__inter/black/Inter-Black.woff) format('woff'),
+        url(../../fonts/__inter/black/Inter-Black.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    src: local('Inter'),
+        url(../../fonts/__inter/bold/Inter-Bold.otf) format('otf'),
+        url(../../fonts/__inter/bold/Inter-Bold.ttf) format('ttf'),
+        url(../../fonts/__inter/bold/Inter-Bold.woff) format('woff'),
+        url(../../fonts/__inter/bold/Inter-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: local('Inter'),
+        url(../../fonts/__inter/regular/Inter-Regular.otf) format('otf'),
+        url(../../fonts/__inter/regular/Inter-Regular.ttf) format('ttf'),
+        url(../../fonts/__inter/regular/Inter-Regular.woff) format('woff'),
+        url(../../fonts/__inter/regular/Inter-Regular.woff2) format('woff2');
+}

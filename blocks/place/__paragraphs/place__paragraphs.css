@@ -4,6 +4,6 @@
     }
 }
 
-.place__paragraph:last-of-type {
-    margin-bottom: 50px;
-}
+.place__paragraph:last-of-type{
+    margin-bottom:0;
+ }
